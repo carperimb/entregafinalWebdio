@@ -1,14 +1,19 @@
 # AbstractaFinalTest
 
 ## Description
-This project is the final test of the course 'WebdriverIO' at Abstracta Academy.
+This project is the result of the final test of the course 'WebdriverIO' at Abstracta Academy.
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Getting Started
+* Clone [this repository](https://github.com/carperimb/entregafinalWebdio)
+## Prerequisites
+* Install [Java SDK](https://openjdk.java.net/)
+* Install [Node.js](https://nodejs.org/download/release/v12.21.0/)
+* Install [Visual Studio Code](https://code.visualstudio.com/download)
+## Executing VSCode
+* Create a new folder and add it to the workspace
+* In a new terminal run: npm install 
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Executing Tests
+* Execute "npm run test"
+* Execute "npx wdio ./wdio.conf.js --suite suiteName" to run a complete suite
 
